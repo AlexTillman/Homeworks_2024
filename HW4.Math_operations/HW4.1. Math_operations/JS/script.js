@@ -13,12 +13,12 @@ let difference = num1 - num2;
 let product = num1 * num2;
 let quotient = num1 / num2;
 
-// Подготавливаю Алерт
-let message = `The user entered ${num1} and ${num2}:
-Sum: ${sum}
-Difference: ${difference}
-Product: ${product}
-Quotient: ${quotient}`;
+// подготовка вывода
+let message = `Пользователь ввел ${num1} и ${num2}:
+  ${num1} + ${num2} = ${sum}
+  ${num1} - ${num2} = ${difference}
+  ${num1} * ${num2} = ${product}
+  ${num1} / ${num2} = ${quotient}`
 
 // Вывожу алерт
 alert(message);
